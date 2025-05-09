@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc019ab8-7d84-419c-a991-52e8271103ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/todo-web-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/api/tasks/route.ts" afterDir="false" />
+    <list default="true" id="dc019ab8-7d84-419c-a991-52e8271103ea" name="Changes" comment="integrating-backend-with-clientSide">
+      <change afterPath="$PROJECT_DIR$/app/tasks/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/conectDB.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modles/task.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/taskSchema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/tasks/[taskId]/route.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/tasks/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/tasks/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/newTaskForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/newTaskForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/taskAlert.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/taskAlert.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/taskCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/taskCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/modles/task.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +35,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AyoubMzian-Dev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AyoubMzian-Dev/nextjs-todo-list.git&quot;,
+    &quot;accountId&quot;: &quot;42fb6cb4-71f2-4d4a-b127-e1bf204f79de&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2wmib89bhvZIbF4ud6fuVcpZcPf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +77,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
@@ -86,10 +117,27 @@
       <workItem from="1746657129285" duration="59000" />
       <workItem from="1746666685667" duration="3782000" />
       <workItem from="1746701320064" duration="892000" />
+      <workItem from="1746739590630" duration="2283000" />
+      <workItem from="1746780126606" duration="4191000" />
+      <workItem from="1746807587725" duration="7979000" />
     </task>
+    <task id="LOCAL-00001" summary="seting-up-basic-file-structure">
+      <option name="closed" value="true" />
+      <created>1746741040933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746741040933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="seting-up-basic-file-structure" />
+    <MESSAGE value="integrating-backend-with-clientSide" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrating-backend-with-clientSide" />
   </component>
 </project>
